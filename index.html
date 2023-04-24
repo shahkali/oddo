@@ -22,457 +22,194 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <!-- Title -->
-    <title>Oddo - Website</title>
+    <title>Odoo - Website</title>
   </head>
 
-  <div
-    class="font size-15 color-white text-center mt-5 p-3"
-    id="alertMsg"
-    style="display: none"
-  >
-    <div class="size-25"><i class="fa fa-wrench"></i></div>
-    &nbsp; Mobile phones are not supported. Please use a desktop/laptop computer
-    to visit the website.
-  </div>
-  <body id="bdy">
-    <div class="container-fluid position-relative bg-primary div-style">
-      <div class="container skew pb-5">
-        <!---Navbar starts-->
-        <nav class="navbar navbar-expand-lg navbar-light pt-3 pb-3">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#">
-              <img
-                src="./images/odoo-white.svg"
-                title=""
-                alt="Logo"
-                style="width: 70px"
-              />
-            </a>
-            <ul class="navbar-nav mr-auto mt-2 ml-auto mt-lg-0">
-              <li class="nav-item active">
-                <a class="nav-link" href="#"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Products</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pages</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">App</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Docs</a>
-              </li>
-            </ul>
-
-            <form class="form-inline my-2 my-lg-0">
-              <button
-                class="btn text-light pr-3 pl-3 my-2 mr-2 my-sm-0"
-                type="submit"
-              >
-                Sign In
-              </button>
-              <button
-                class="btn btn-light pr-3 pl-3 my-2 my-sm-0"
-                type="submit"
-              >
-                <i class="fa fa-shopping-bag"></i>&nbsp;&nbsp;Buy now
-              </button>
-            </form>
-          </div>
-        </nav>
-        <div class="row">
-          <div class="col">
-            <hr class="mt-0 border-color-light" />
-          </div>
-        </div>
-        <!---Navbar ends-->
-
-        <!---Hero section starts -->
-        <div class="row pt-5 pb-5 pl-3">
-          <div class="col-6">
-            <br /><br /><br /><br /><br />
-            <h1 class="h1 text-white font-weight-bold">
-              Development<br />
-              done right
-            </h1>
-            <p class="mt-3 mb-5 text-white">
-              Build a beautiful, modern website with<br />
-              flexible components built from scratch.
-            </p>
-            <button class="btn btn-light pl-3 pr-3 pt-2 pb-2">
-              Get started&nbsp;&nbsp; <i class="fa fa-plus"></i>
+  <body>
+    <!-- Alert section starts -->
+    <div
+      class="font size-15 color-white text-center mt-5 p-3"
+      id="alertMsg"
+      style="display: none"
+    >
+      <div class="size-25"><i class="fa fa-wrench"></i></div>
+      &nbsp; Screen size >=992px are compatible with this website. Please use
+      screen having size >=992px
+    </div>
+    <!-- Alert section ends  -->
+    <!-- Main container  starts-->
+    <div id="bdy">
+      <div class="container-fluid position-relative bg-primary div-style">
+        <div class="container skew pb-5">
+          <!---Navbar starts-->
+          <nav class="navbar navbar-expand-lg navbar-light pt-3 pb-3">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="row mt-5">
-              <div class="col text-white"><p>Trusted by:</p></div>
-              <div class="col">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <a class="navbar-brand" href="#">
                 <img
-                  src="./images/google-white.svg"
-                  class="img-fluid"
-                  alt=""
+                  src="./images/odoo-white.svg"
                   title=""
+                  alt="Logo"
+                  style="width: 70px"
                 />
-              </div>
-              <div class="col">
-                <img
-                  src="./images/spotify-white.svg"
-                  class="img-fluid"
-                  alt=""
-                  title=""
-                />
-              </div>
-              <div class="col">
-                <img
-                  src="./images/airbnb-white.svg"
-                  class="img-fluid"
-                  alt=""
-                  title=""
-                />
-              </div>
-              <div class="col">
-                <img
-                  src="./images/paypal-white.svg"
-                  class="img-fluid"
-                  alt=""
-                  title=""
-                />
-              </div>
+              </a>
+              <ul class="navbar-nav mr-auto mt-2 ml-auto mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">App</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Docs</a>
+                </li>
+              </ul>
+
+              <form class="form-inline my-2 my-lg-0">
+                <button
+                  class="btn text-light pr-3 pl-3 my-2 mr-2 my-sm-0"
+                  type="submit"
+                >
+                  Sign In
+                </button>
+                <button
+                  class="btn btn-light pr-3 pl-3 my-2 my-sm-0"
+                  type="submit"
+                >
+                  <i class="fa fa-shopping-bag"></i>&nbsp;&nbsp;Buy now
+                </button>
+              </form>
+            </div>
+          </nav>
+          <div class="row">
+            <div class="col">
+              <hr class="mt-0 border-color-light" />
             </div>
           </div>
-          <div class="col-6 d-flex justify-content-end">
-            <div class="card p-3 hero-section-card">
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-8 p-0 d-flex align-items-center">
-                    <h1 class="h5">Manage cards</h1>
-                  </div>
-                  <div class="col-4 p-0 text-right">
-                    <button
-                      type="button"
-                      class="btn btn-outline-secondary pl-3 pr-3 text-dark"
-                    >
-                      Add new
-                    </button>
-                  </div>
-                </div>
-                <div class="row mt-3">
+          <!---Navbar ends-->
+
+          <!---Hero section starts -->
+          <div class="row pt-5 pb-5 pl-3">
+            <div class="col-6">
+              <br /><br /><br /><br /><br />
+              <h1 class="h1 text-white font-weight-bold">
+                Development<br />
+                done right
+              </h1>
+              <p class="mt-3 mb-5 text-white">
+                Build a beautiful, modern website with<br />
+                flexible components built from scratch.
+              </p>
+              <button class="btn btn-light pl-3 pr-3 pt-2 pb-2">
+                Get started&nbsp;&nbsp; <i class="fa fa-plus"></i>
+              </button>
+              <div class="row mt-5">
+                <div class="col text-white"><p>Trusted by:</p></div>
+                <div class="col">
                   <img
-                    src="./images/visa card.png"
-                    title=""
-                    alt=""
+                    src="./images/google-white.svg"
                     class="img-fluid"
-                    width="100%"
+                    alt=""
+                    title=""
                   />
                 </div>
-                <div class="row mt-3">
-                  <div class="col-6">Starbucks</div>
-                  <div class="col-6 text-right">$5,50 USD</div>
-                  <div class="col-12">
-                    <p class="text-secondary">
-                      Pending - San Fransico, United States
-                    </p>
-                  </div>
-                  <div class="col-12"><hr class="mt-0 hero-section-hr" /></div>
-                </div>
-                <div class="row">
-                  <div class="col-6">Nike Sports</div>
-                  <div class="col-6 text-right">$129,00 USD</div>
-                  <div class="col-12">
-                    <p class="text-secondary">Pending - Lisbon, Portugal</p>
-                  </div>
-                  <div class="col-12"><hr class="mt-0 hero-section-hr" /></div>
-                </div>
-
-                <div class="row">
-                  <div class="col">
-                    <a href="#" class="hero-section-viewBtn text-primary"
-                      >View all&nbsp;<i class="fa fa-angle-right"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!---Hero section ends -->
-    </div>
-
-    <br />
-    <!---Tools section starts -->
-    <div class="container pt-5 section-gap position-relative">
-      <div class="row">
-        <div class="col pl-0 position-relative">
-          <div class="card pl-4 pr-4 pt-4 pb-4">
-            <div class="card-body">
-              <h1 class="card-title h5">Awesome projects</h1>
-              <div class="row mt-4">
-                <div class="col-8">Create the new logo</div>
-                <div class="col-4 text-right">
-                  <a href="#" class="btn"
-                    >3:50&nbsp;<i class="fa fa-angle-right"></i
-                  ></a>
+                <div class="col">
+                  <img
+                    src="./images/spotify-white.svg"
+                    class="img-fluid"
+                    alt=""
+                    title=""
+                  />
                 </div>
                 <div class="col">
-                  <div class="progress">
-                    <div class="progress-bar bg-warning bar-35"></div>
-                  </div>
+                  <img
+                    src="./images/airbnb-white.svg"
+                    class="img-fluid"
+                    alt=""
+                    title=""
+                  />
                 </div>
-              </div>
-              <div class="row pt-3 mt-4">
-                <div class="col-8">Setup the color palette</div>
-                <div class="col-4 text-right">
-                  <a href="#" class="btn"
-                    >4:00&nbsp;<i class="fa fa-angle-right"></i
-                  ></a>
-                </div>
-
                 <div class="col">
-                  <div class="progress">
-                    <div class="progress-bar bg-warning bar-55"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="row pt-3 mt-4">
-                <div class="col-8">Wireframes and prototypes</div>
-                <div class="col-4 text-right">
-                  <a href="#" class="btn"
-                    >6:50&nbsp;<i class="fa fa-angle-right"></i
-                  ></a>
-                </div>
-
-                <div class="col">
-                  <div class="progress">
-                    <div class="progress-bar bg-warning bar-85"></div>
-                  </div>
+                  <img
+                    src="./images/paypal-white.svg"
+                    class="img-fluid"
+                    alt=""
+                    title=""
+                  />
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card position-absolute awesome-project-child">
-            <div class="card-body p-0">
-              <img
-                src="./images/img_01.jpg"
-                alt=""
-                title=""
-                class="rounded"
-                width="100%"
-              />
-              <button
-                class="btn btn-light pl-3 pr-3 pt-2 pb-2"
-                style="position: absolute; right: 15px; top: 15px"
-              >
-                Play video&nbsp;&nbsp; <i class="fa fa-play"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="col pl-5">
-          <span class="badge badge-pill badge-warning text-light">Tools</span>
-          <h1 class="h1 mt-4">We build for designers and developers</h1>
-          <p class="mt-4">
-            Get components and examples, including tons of variables that will
-            help you grow your business.
-          </p>
-        </div>
-      </div>
-      <br /><br />
-    </div>
-    <!---Tools section ends -->
-
-    <!---Features section starts-->
-    <div class="container pt-5">
-      <div class="row">
-        <div class="col mt-5">
-          <span class="badge badge-pill badge-success text-light mt-5"
-            >Features</span
-          >
-
-          <p class="mt-4">
-            Get components and examples, including tons of variables that will
-            help you grow your business.
-          </p>
-          <div class="mt-4 text-success">
-            <i class="fa fa-check-square mr-3"></i>Perfect for modern startups
-
-            <br />
-            <i class="fa fa-check-square mr-3 mt-3"></i>Fully customizable and
-            scalable
-          </div>
-        </div>
-        <div class="col">
-          <div class="card position-relative">
-            <div class="card-body p-0">
-              <img
-                src="./images/img_02.jpg"
-                alt=""
-                title=""
-                class="rounded"
-                width="100%"
-              />
-              <button class="btn btn-light pl-3 pr-3 pt-2 pb-2 feature-child">
-                Play video&nbsp;&nbsp; <i class="fa fa-play"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!---Features section edns-->
-    <br /><br /><br /><br />
-    <!---Technology section starts-->
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-6">
-          <div class="row">
-            <div class="col">
-              <div class="card mt-5">
-                <img
-                  class="card-img-top"
-                  src="images/person_03.jpg"
-                  alt=""
-                  title=""
-                />
+            <div class="col-6 d-flex justify-content-end">
+              <div class="card p-3 hero-section-card">
                 <div class="card-body">
                   <div class="row">
-                    <div class="col-3">
-                      <button class="btn btn-warning text-white avatar-text">
-                        JH
+                    <div class="col-8 p-0 d-flex align-items-center">
+                      <h1 class="h5">Manage cards</h1>
+                    </div>
+                    <div class="col-4 p-0 text-right">
+                      <button
+                        type="button"
+                        class="btn btn-outline-secondary pl-3 pr-3 text-dark"
+                      >
+                        Add new
                       </button>
                     </div>
-                    <div class="col-7 pt-2">
-                      <p class="card-text">Jimmy Hendrix</p>
-                    </div>
-                    <div class="col-2 pt-2"><i class="fa fa-heart-o"></i></div>
                   </div>
-                </div>
-              </div>
-              <div class="card mt-3">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-3 mt-auto mb-auto">
-                      <button class="btn btn-success avatar-text">
-                        <i class="fa fa-check"></i>
-                      </button>
-                    </div>
-                    <div class="col-9 pt-2">
-                      <div class="card-text font-weight-bold">
-                        300+ components
-                      </div>
-                      <div>Built to be customized.</div>
-                    </div>
+                  <div class="row mt-3">
+                    <img
+                      src="./images/visa card.png"
+                      title=""
+                      alt=""
+                      class="img-fluid"
+                      width="100%"
+                    />
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card text-center p-4">
-                <img
-                  class="rounded d-flex align-self-center"
-                  src="./images/airbnb.svg"
-                  width="70%"
-                  alt=""
-                  title=""
-                />
-                <div class="card-body">
-                  <div class="row">
+                  <div class="row mt-3">
+                    <div class="col-6">Starbucks</div>
+                    <div class="col-6 text-right">$5,50 USD</div>
                     <div class="col-12">
-                      <i
-                        class="fa fa-star-o text-warning"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="fa fa-star-o text-warning"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="fa fa-star-o text-warning"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="fa fa-star-o text-warning"
-                        aria-hidden="true"
-                      ></i>
-
-                      <i class="fa fa-star-o" aria-hidden="true"></i>
-                    </div>
-                    <div class="col-12 mt-3">
-                      <p class="card-text font-weight-bold">
-                        4.95 out of 5 stars
+                      <p class="text-secondary">
+                        Pending - San Fransico, United States
                       </p>
                     </div>
-                    <div class="col-12 mt-1">
-                      <p class="card-text">from 23 reviews</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card text-center p-4 mt-3">
-                <img
-                  class="rounded-circle d-flex align-self-center"
-                  src="./images/company_01.png"
-                  width="30%"
-                  alt=""
-                  title=""
-                />
-                <div class="card-body">
-                  <div class="row">
                     <div class="col-12">
-                      <p class="card-text font-weight-bold">Website UI KIt</p>
+                      <hr class="mt-0 hero-section-hr" />
                     </div>
-                    <div class="col-12 mt-3">
-                      <img
-                        src="./images/person_02.jpg"
-                        style="margin: -22px; border: 1px solid #fff"
-                        class="rounded-circle d-inline"
-                        width="25%"
-                        alt=""
-                        title=""
-                      />
-                      <img
-                        src="./images/person_01.jpg"
-                        style="border: 1px solid #fff"
-                        class="rounded-circle d-inline"
-                        width="25%"
-                        alt=""
-                        title=""
-                      />
-                      <img
-                        src="./images/person_03.jpg"
-                        style="margin: -22px; border: 1px solid #fff"
-                        class="rounded-circle d-inline"
-                        width="25%"
-                        alt=""
-                        title=""
-                      />
+                  </div>
+                  <div class="row">
+                    <div class="col-6">Nike Sports</div>
+                    <div class="col-6 text-right">$129,00 USD</div>
+                    <div class="col-12">
+                      <p class="text-secondary">Pending - Lisbon, Portugal</p>
                     </div>
+                    <div class="col-12">
+                      <hr class="mt-0 hero-section-hr" />
+                    </div>
+                  </div>
 
-                    <div class="col-12 mt-2 icons">
-                      <hr />
-                      <i
-                        class="fa fa-paperclip text-secondary"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="fa fa-eye text-secondary"
-                        aria-hidden="true"
-                      ></i>
-                      <i class="fa fa-heart-o text-secondary"></i>
+                  <div class="row">
+                    <div class="col">
+                      <a href="#" class="hero-section-viewBtn text-primary"
+                        >View all&nbsp;<i class="fa fa-angle-right"></i
+                      ></a>
                     </div>
                   </div>
                 </div>
@@ -480,592 +217,876 @@
             </div>
           </div>
         </div>
-
-        <div class="col pl-5 mt-5">
-          <div class="mb-5">
-            <br />
-          </div>
-          <span class="badge badge-pill badge-primary text-light"
-            >Technology</span
-          >
-          <h1 class="h1 mt-4">We use the latest technologies on the market</h1>
-          <p class="mt-4">
-            Get components and examples, including tons of variables that will
-            help you grow your business.
-          </p>
-          <button
-            class="btn text-primary pl-0"
-            style="text-decoration: underline"
-          >
-            See case studies
-          </button>
-        </div>
+        <!---Hero section ends -->
       </div>
-    </div>
-    <!--- Technology section ends-->
 
-    <!---Easy to install section start-->
-    <div class="container pt-5 mt-5">
-      <div class="row">
-        <div class="col mt-5">
-          <span class="badge badge-pill badge-warning text-light mt-5"
-            >Easy to install</span
-          >
-          <h1 class="h1 mt-4">Download, install and run.</h1>
-          <p class="mt-4">
-            Get components and examples, including tons of variables that will
-            help you grow your business.
-          </p>
-          <div class="row">
-            <div class="col-8">
-              <button class="btn text-left w-50 d-inline-block pl-0">
-                <img
-                  src="./images/appstore.png"
-                  width="100%"
-                  class="img-fluid"
-                  alt=""
-                  title=""
-                />
-              </button>
-              <button
-                class="btn text-left w-50 d-inline-block float-right pl-0"
-              >
-                <img
-                  src="./images/playstor.png"
-                  width="100%"
-                  class="img-fluid"
-                  alt=""
-                  title=""
-                />
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card position-relative">
-            <div class="card-body p-0">
-              <img src="./images/img_02.jpg" class="rounded" width="100%" />
-              <button
-                class="btn btn-light pl-3 pr-3 pt-2 pb-2 easy-to-install-child"
-              >
-                Play video&nbsp;&nbsp; <i class="fa fa-play"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--Easy to install section ends-->
-
-    <!--Infinite solutions section starts-->
-    <div class="container p-5 mt-5 infinite-sol text-white">
-      <div class="row p-5">
-        <div class="col-7">
-          <h1 class="h1">Infinite Solution</h1>
-          <p class="mt-4">
-            Intuitive markup, powerful and lightning-fast build tools,<br />everything
-            you need to turn your ideas into incredible products.
-          </p>
-        </div>
-        <div class="col-5 text-right">
-          <button class="btn btn-light pl-3 pr-3 pt-2 pb-2">
-            Learn More&nbsp;&nbsp; <i class="fa fa-arrow-right"></i>
-          </button>
-        </div>
-      </div>
-    </div>
-    <!--Infinite solutions section ends-->
-
-    <!---Awards section starts-->
-    <div class="container-fluid div-style award-sec p-5 mt-5">
-      <div class="container skew-new mt-5">
+      <br />
+      <!---Tools section starts -->
+      <div class="container pt-5 section-gap position-relative">
         <div class="row">
-          <div class="col-12">
-            <span class="badge badge-pill badge-warning text-light"
-              >Awards</span
-            >
+          <div class="col pl-0 position-relative">
+            <div class="card pl-4 pr-4 pt-4 pb-4">
+              <div class="card-body">
+                <h1 class="card-title h5">Awesome projects</h1>
+                <div class="row mt-4">
+                  <div class="col-8">Create the new logo</div>
+                  <div class="col-4 text-right">
+                    <a href="#" class="btn"
+                      >3:50&nbsp;<i class="fa fa-angle-right"></i
+                    ></a>
+                  </div>
+                  <div class="col">
+                    <div class="progress">
+                      <div class="progress-bar bg-warning bar-35"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row pt-3 mt-4">
+                  <div class="col-8">Setup the color palette</div>
+                  <div class="col-4 text-right">
+                    <a href="#" class="btn"
+                      >4:00&nbsp;<i class="fa fa-angle-right"></i
+                    ></a>
+                  </div>
+
+                  <div class="col">
+                    <div class="progress">
+                      <div class="progress-bar bg-warning bar-55"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row pt-3 mt-4">
+                  <div class="col-8">Wireframes and prototypes</div>
+                  <div class="col-4 text-right">
+                    <a href="#" class="btn"
+                      >6:50&nbsp;<i class="fa fa-angle-right"></i
+                    ></a>
+                  </div>
+
+                  <div class="col">
+                    <div class="progress">
+                      <div class="progress-bar bg-warning bar-85"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card position-absolute awesome-project-child">
+              <div class="card-body p-0">
+                <img
+                  src="./images/img_01.jpg"
+                  alt=""
+                  title=""
+                  class="rounded"
+                  width="100%"
+                />
+                <button
+                  class="btn btn-light pl-3 pr-3 pt-2 pb-2"
+                  style="position: absolute; right: 15px; top: 15px"
+                >
+                  Play video&nbsp;&nbsp; <i class="fa fa-play"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col pl-5">
+            <span class="badge badge-pill badge-warning text-light">Tools</span>
+            <h1 class="h1 mt-4">We build for designers and developers</h1>
             <p class="mt-4">
-              Awards for design, creativity, and innovation on the Internet
+              Get components and examples, including tons of variables that will
+              help you grow your business.
             </p>
           </div>
-          <div class="col-12 mt-5">
-            <div class="row">
-              <div class="col mt-5">
-                <a href="/404.html" class="no-style">
-                  <div class="card card-hover text-center p-4">
-                    <img
-                      class="rounded d-flex align-self-center pt-3"
-                      src="./images/airbnb.svg"
-                      width="70%"
-                      alt=""
-                      title=""
-                    />
-                    <div class="card-body p-0">
-                      <div class="row mt-4">
-                        <div class="col-12">
-                          <i
-                            class="fa fa-star-o text-warning"
-                            aria-hidden="true"
-                          ></i>
-                          <i
-                            class="fa fa-star-o text-warning"
-                            aria-hidden="true"
-                          ></i>
-                          <i
-                            class="fa fa-star-o text-warning"
-                            aria-hidden="true"
-                          ></i>
-                          <i
-                            class="fa fa-star-o text-warning"
-                            aria-hidden="true"
-                          ></i>
-
-                          <i class="fa fa-star-o" aria-hidden="true"></i>
-                        </div>
-                        <div class="col-12 mt-3">
-                          <p class="card-text font-weight-bold">
-                            4.95 out of 5 stars
-                          </p>
-                        </div>
-                        <div class="col-12 mt-1 pb-3">
-                          <p class="card-text">from 23 reviews</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col">
-                <a href="/404.html">
-                  <div class="card card-hover text-center p-4">
-                    <img
-                      class="rounded d-flex align-self-center pt-3"
-                      src="./images/amazon.svg"
-                      width="70%"
-                      alt=""
-                      title=""
-                    />
-                    <div class="card-body p-0">
-                      <div class="row mt-4">
-                        <div class="col-12">
-                          <p>
-                            They build modern looking websites easily using tabs
-                          </p>
-                        </div>
-                        <div class="col-12 mt-3">
-                          <button
-                            class="btn"
-                            style="text-decoration: underline"
-                          >
-                            Learn more
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="col mt-5">
-                <a href="/404.html">
-                  <div class="card card-hover text-center p-4">
-                    <img
-                      class="rounded d-flex align-self-center pt-3"
-                      src="./images/slack.svg"
-                      width="70%"
-                      alt=""
-                      title=""
-                    />
-                    <div class="card-body p-0">
-                      <div class="row mt-4">
-                        <div class="col-12">
-                          <p>
-                            They build modern looking websites easily using tabs
-                          </p>
-                        </div>
-                        <div class="col-12 mt-3">
-                          <button
-                            class="btn"
-                            style="text-decoration: underline"
-                          >
-                            Learn more
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="col mt">
-                <a href="./404.html">
-                  <div class="card card-hover text-center p-4">
-                    <img
-                      class="rounded d-flex align-self-center pt-3"
-                      src="./images/spotify.svg"
-                      width="70%"
-                      alt=""
-                      title=""
-                    />
-                    <div class="card-body p-0">
-                      <div class="row mt-4">
-                        <div class="col-12">
-                          <i
-                            class="fa fa-star-o text-warning"
-                            aria-hidden="true"
-                          ></i>
-                          <i
-                            class="fa fa-star-o text-warning"
-                            aria-hidden="true"
-                          ></i>
-                          <i
-                            class="fa fa-star-o text-warning"
-                            aria-hidden="true"
-                          ></i>
-                          <i
-                            class="fa fa-star-o text-warning"
-                            aria-hidden="true"
-                          ></i>
-
-                          <i class="fa fa-star-o" aria-hidden="true"></i>
-                        </div>
-                        <div class="col-12 mt-3">
-                          <p class="card-text font-weight-bold">
-                            4.95 out of 5 stars
-                          </p>
-                        </div>
-                        <div class="col-12 mt-1 pb-3">
-                          <p class="card-text">from 23 reviews</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col mt-5">
-                <a href="./404.html">
-                  <div class="card card-hover text-center p-4">
-                    <img
-                      class="rounded d-flex align-self-center pt-3"
-                      src="./images/paypal.svg"
-                      width="70%"
-                      alt=""
-                      title=""
-                    />
-                    <div class="card-body p-0">
-                      <div class="row mt-4">
-                        <div class="col-12">
-                          <p>
-                            They build modern looking websites easily using tabs
-                          </p>
-                        </div>
-                        <div class="col-12 mt-3">
-                          <button
-                            class="btn"
-                            style="text-decoration: underline"
-                          >
-                            Learn more
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
+        <br /><br />
       </div>
-    </div>
-    <!---Awards section ends-->
+      <!---Tools section ends -->
 
-    <!---Helpful Answers section starts-->
-    <div class="container-fluid div-style mb-0 pt-5 pl-5 pr-5 mt-5">
-      <div class="container skew-white">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h1 class="h1">Helpful Answers</h1>
-            <p class="mt-3">
-              Start building fast, beautiful, and modern-looking websites in no
-              time.
+      <!---Features section starts-->
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col mt-5">
+            <span class="badge badge-pill badge-success text-light mt-5"
+              >Features</span
+            >
+
+            <p class="mt-4">
+              Get components and examples, including tons of variables that will
+              help you grow your business.
             </p>
-          </div>
-          <div class="col-12 mt-4">
-            <div class="row" id="accordion">
-              <div class="col-6 mt-3">
-                <!-- accordion -->
-                <div class="card">
-                  <div class="card-header bg-light p-3">
-                    <span><i class="fa fa-file"></i></span>
-                    <a
-                      class="collapsed card-link text-decoration-none"
-                      data-toggle="collapse"
-                      href="#collapseOne"
-                    >
-                      &nbsp; &nbsp; Which license do I need?
-                      <span class="show-hide float-right"
-                        ><i class="fa fa-plus"></i
-                      ></span>
-                    </a>
-                  </div>
-                  <div
-                    id="collapseOne"
-                    class="collapse"
-                    data-parent="#accordion"
-                  >
-                    <div class="card-body">Lorem ipsum..</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6 mt-3">
-                <!--  accordion -->
-                <div class="card">
-                  <div class="card-header bg-light p-3">
-                    <span><i class="fa fa-file"></i></span>
-                    <a
-                      class="collapsed card-link text-decoration-none"
-                      data-toggle="collapse"
-                      href="#collapseTwo"
-                    >
-                      &nbsp; &nbsp; Which license do I need?
-                      <span class="show-hide float-right"
-                        ><i class="fa fa-plus"></i
-                      ></span>
-                    </a>
-                  </div>
-                  <div
-                    id="collapseTwo"
-                    class="collapse"
-                    data-parent="#accordion"
-                  >
-                    <div class="card-body">Lorem ipsum..</div>
-                  </div>
-                </div>
-              </div>
+            <div class="mt-4 text-success">
+              <i class="fa fa-check-square mr-3"></i>Perfect for modern startups
 
-              <div class="col-6 mt-3">
-                <!-- accordion -->
-                <div class="card">
-                  <div class="card-header bg-light p-3">
-                    <span><i class="fa fa-file"></i></span>
-                    <a
-                      class="collapsed card-link"
-                      data-toggle="collapse"
-                      href="#collapseThree"
-                    >
-                      &nbsp; &nbsp;How do I get access to my database?
-                      <span class="show-hide float-right"
-                        ><i class="fa fa-plus"></i
-                      ></span>
-                    </a>
-                  </div>
-                  <div
-                    id="collapseThree"
-                    class="collapse"
-                    data-parent="#accordion"
-                  >
-                    <div class="card-body">Lorem ipsum..</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6 mt-3">
-                <!--  accordion -->
-                <div class="card">
-                  <div class="card-header bg-light p-3">
-                    <span><i class="fa fa-file"></i></span>
-                    <a
-                      class="collapsed card-link"
-                      data-toggle="collapse"
-                      href="#collapseFour"
-                    >
-                      &nbsp; &nbsp; How do I get access to my database?
-                      <span class="show-hide float-right"
-                        ><i class="fa fa-plus"></i
-                      ></span>
-                    </a>
-                  </div>
-                  <div
-                    id="collapseFour"
-                    class="collapse"
-                    data-parent="#accordion"
-                  >
-                    <div class="card-body">Lorem ipsum..</div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-6 mt-3">
-                <!--  accordion -->
-                <div class="card">
-                  <div class="card-header bg-light p-3">
-                    <span><i class="fa fa-file"></i></span>
-                    <a
-                      class="collapsed card-link"
-                      data-toggle="collapse"
-                      href="#collapseFive"
-                    >
-                      &nbsp; &nbsp;How do I see previous orders?
-
-                      <span class="show-hide float-right"
-                        ><i class="fa fa-plus"></i
-                      ></span>
-                    </a>
-                  </div>
-                  <div
-                    id="collapseFive"
-                    class="collapse"
-                    data-parent="#accordion"
-                  >
-                    <div class="card-body">Lorem ipsum..</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6 mt-3">
-                <!--  accordion -->
-                <div class="card">
-                  <div class="card-header bg-light p-3">
-                    <span><i class="fa fa-file"></i></span>
-                    <a
-                      class="collapsed card-link"
-                      data-toggle="collapse"
-                      href="#collapseSix"
-                    >
-                      &nbsp; &nbsp;How do I see previous orders?
-
-                      <span class="show-hide float-right"
-                        ><i class="fa fa-plus"></i
-                      ></span>
-                    </a>
-                  </div>
-                  <div
-                    id="collapseSix"
-                    class="collapse"
-                    data-parent="#accordion"
-                  >
-                    <div class="card-body">Lorem ipsum..</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row mt-5 mb-5 text-center">
-          <div class="col-12 mt-5">
-            <p>I want to start a new project</p>
-          </div>
-          <div class="col">
-            <button class="btn btn-primary pl-3 pr-3 pt-2 pb-2 mb-2 mt-2">
-              Buy now&nbsp;&nbsp; <i class="fa fa-arrow-right"></i>
-            </button>
-            <button type="button" class="btn">Learn more</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!---Helpful Answers section ends-->
-
-    <!---Footer section starts-->
-
-    <div class="container-fluid bg-purple pb-3">
-      <div class="container text-white">
-        <div class="row pt-5">
-          <div class="col-8 pt-5">
-            <h1 class="h3 pt-5">Brilliant solutions for your ideas</h1>
-            <p class="mt-3">Modern-looking websites.</p>
-          </div>
-          <div class="col-4 pt-5">
-            <div class="pt-5">
               <br />
-              <button class="btn btn-light pl-3 pr-3 pt-2 pb-2">
-                <i class="fa fa-file text-primary"></i>&nbsp;&nbsp;Documentation
-              </button>
-
-              <button class="btn btn-primary pl-3 pr-3 pt-2 pb-2">
-                Purchase now
-              </button>
+              <i class="fa fa-check-square mr-3 mt-3"></i>Fully customizable and
+              scalable
+            </div>
+          </div>
+          <div class="col">
+            <div class="card position-relative">
+              <div class="card-body p-0">
+                <img
+                  src="./images/img_02.jpg"
+                  alt=""
+                  title=""
+                  class="rounded"
+                  width="100%"
+                />
+                <button class="btn btn-light pl-3 pr-3 pt-2 pb-2 feature-child">
+                  Play video&nbsp;&nbsp; <i class="fa fa-play"></i>
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="container text-white bg-purple pt-4">
+      <!---Features section edns-->
+      <br /><br /><br /><br />
+      <!---Technology section starts-->
+      <div class="container mt-5">
         <div class="row">
-          <div class="col-12"><hr class="mt-0 footer-hr" /></div>
-        </div>
-        <div class="row pt-4 pb-4">
-          <div class="col-5 pr-5">
-            <img
-              src="./images/odoo-white.svg "
-              class="img-fluid"
-              width="70px"
-              alt=""
-              title=""
-            />
-            <p class="mt-4 text-secondary">
-              Odoo attempts to bring the best development experience to
-              designers and developers by offering the tools needed for having a
-              quick and solid start in most web projects.
-            </p>
-          </div>
-          <div class="col-7 pl-5">
+          <div class="col-6">
             <div class="row">
               <div class="col">
-                <p class="font-weight-bold">Account</p>
-                <ul class="list-unstyled">
-                  <li class="text-secondary">Profile</li>
-                  <li class="mt-2 text-secondary">Settings</li>
-                  <li class="mt-2 text-secondary">Billing</li>
-                  <li class="mt-2 text-secondary">Notifications</li>
-                </ul>
+                <div class="card mt-5">
+                  <img
+                    class="card-img-top"
+                    src="images/person_03.jpg"
+                    alt=""
+                    title=""
+                  />
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-3">
+                        <button class="btn btn-warning text-white avatar-text">
+                          JH
+                        </button>
+                      </div>
+                      <div class="col-7 pt-2">
+                        <p class="card-text">Jimmy Hendrix</p>
+                      </div>
+                      <div class="col-2 pt-2">
+                        <i class="fa fa-heart-o"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mt-3">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-3 mt-auto mb-auto">
+                        <button class="btn btn-success avatar-text">
+                          <i class="fa fa-check"></i>
+                        </button>
+                      </div>
+                      <div class="col-9 pt-2">
+                        <div class="card-text font-weight-bold">
+                          300+ components
+                        </div>
+                        <div>Built to be customized.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="col">
-                <p class="font-weight-bold">About</p>
-                <ul class="list-unstyled">
-                  <li class="text-secondary">Services</li>
-                  <li class="mt-2 text-secondary">Prices</li>
-                  <li class="mt-2 text-secondary">Contact</li>
-                  <li class="mt-2 text-secondary">Careers</li>
-                </ul>
+                <div class="card text-center p-4">
+                  <img
+                    class="rounded d-flex align-self-center"
+                    src="./images/airbnb.svg"
+                    width="70%"
+                    alt=""
+                    title=""
+                  />
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-12">
+                        <i
+                          class="fa fa-star-o text-warning"
+                          aria-hidden="true"
+                        ></i>
+                        <i
+                          class="fa fa-star-o text-warning"
+                          aria-hidden="true"
+                        ></i>
+                        <i
+                          class="fa fa-star-o text-warning"
+                          aria-hidden="true"
+                        ></i>
+                        <i
+                          class="fa fa-star-o text-warning"
+                          aria-hidden="true"
+                        ></i>
+
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                      </div>
+                      <div class="col-12 mt-3">
+                        <p class="card-text font-weight-bold">
+                          4.95 out of 5 stars
+                        </p>
+                      </div>
+                      <div class="col-12 mt-1">
+                        <p class="card-text">from 23 reviews</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card text-center p-4 mt-3">
+                  <img
+                    class="rounded-circle d-flex align-self-center"
+                    src="./images/company_01.png"
+                    width="30%"
+                    alt=""
+                    title=""
+                  />
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-12">
+                        <p class="card-text font-weight-bold">Website UI KIt</p>
+                      </div>
+                      <div class="col-12 mt-3">
+                        <img
+                          src="./images/person_02.jpg"
+                          style="margin: -22px; border: 1px solid #fff"
+                          class="rounded-circle d-inline"
+                          width="25%"
+                          alt=""
+                          title=""
+                        />
+                        <img
+                          src="./images/person_01.jpg"
+                          style="border: 1px solid #fff"
+                          class="rounded-circle d-inline"
+                          width="25%"
+                          alt=""
+                          title=""
+                        />
+                        <img
+                          src="./images/person_03.jpg"
+                          style="margin: -22px; border: 1px solid #fff"
+                          class="rounded-circle d-inline"
+                          width="25%"
+                          alt=""
+                          title=""
+                        />
+                      </div>
+
+                      <div class="col-12 mt-2 icons">
+                        <hr />
+                        <i
+                          class="fa fa-paperclip text-secondary"
+                          aria-hidden="true"
+                        ></i>
+                        <i
+                          class="fa fa-eye text-secondary"
+                          aria-hidden="true"
+                        ></i>
+                        <i class="fa fa-heart-o text-secondary"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col">
-                <p class="font-weight-bold">Company</p>
-                <ul class="list-unstyled">
-                  <li class="text-secondary">Community</li>
-                  <li class="mt-2 text-secondary">Help Center</li>
-                  <li class="mt-2 text-secondary">Support</li>
-                </ul>
+            </div>
+          </div>
+
+          <div class="col pl-5 mt-5">
+            <div class="mb-5">
+              <br />
+            </div>
+            <span class="badge badge-pill badge-primary text-light"
+              >Technology</span
+            >
+            <h1 class="h1 mt-4">
+              We use the latest technologies on the market
+            </h1>
+            <p class="mt-4">
+              Get components and examples, including tons of variables that will
+              help you grow your business.
+            </p>
+            <button
+              class="btn text-primary pl-0"
+              style="text-decoration: underline"
+            >
+              See case studies
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--- Technology section ends-->
+
+      <!---Easy to install section start-->
+      <div class="container pt-5 mt-5">
+        <div class="row">
+          <div class="col mt-5">
+            <span class="badge badge-pill badge-warning text-light mt-5"
+              >Easy to install</span
+            >
+            <h1 class="h1 mt-4">Download, install and run.</h1>
+            <p class="mt-4">
+              Get components and examples, including tons of variables that will
+              help you grow your business.
+            </p>
+            <div class="row">
+              <div class="col-8">
+                <button class="btn text-left w-50 d-inline-block pl-0">
+                  <img
+                    src="./images/appstore.png"
+                    width="100%"
+                    class="img-fluid"
+                    alt=""
+                    title=""
+                  />
+                </button>
+                <button
+                  class="btn text-left w-50 d-inline-block float-right pl-0"
+                >
+                  <img
+                    src="./images/playstor.png"
+                    width="100%"
+                    class="img-fluid"
+                    alt=""
+                    title=""
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card position-relative">
+              <div class="card-body p-0">
+                <img src="./images/img_02.jpg" class="rounded" width="100%" />
+                <button
+                  class="btn btn-light pl-3 pr-3 pt-2 pb-2 easy-to-install-child"
+                >
+                  Play video&nbsp;&nbsp; <i class="fa fa-play"></i>
+                </button>
               </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-12"><hr class="mt-0 footer-hr" /></div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <i class="btn text-secondary fa fa-dribbble" aria-hidden="true"></i>
-            <i class="btn text-secondary fa fa-github"></i>
-            <i class="btn text-secondary fa fa-instagram"></i>
-            <i class="btn text-secondary fa fa-facebook-square"></i>
+      </div>
+      <!--Easy to install section ends-->
+
+      <!--Infinite solutions section starts-->
+      <div class="container p-5 mt-5 infinite-sol text-white">
+        <div class="row p-5">
+          <div class="col-7">
+            <h1 class="h1">Infinite Solution</h1>
+            <p class="mt-4">
+              Intuitive markup, powerful and lightning-fast build tools,<br />everything
+              you need to turn your ideas into incredible products.
+            </p>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-8 text-secondary">
-            &copy;&nbsp;<span class="font-weight-bold text-white"
-              >Oddo.&nbsp;&nbsp;</span
-            >All rights reserved
-          </div>
-          <div class="col-4 text-right">
-            <a class="text-secondary mr-4" href="#">Terms</a>
-            <a class="text-secondary mr-4" href="#">Privacy</a>
-            <a class="text-secondary" href="#">Cookies</a>
+          <div class="col-5 text-right">
+            <button class="btn btn-light pl-3 pr-3 pt-2 pb-2">
+              Learn More&nbsp;&nbsp; <i class="fa fa-arrow-right"></i>
+            </button>
           </div>
         </div>
       </div>
-    </div>
+      <!--Infinite solutions section ends-->
 
-    <!--Footer section ends-->
+      <!---Awards section starts-->
+      <div class="container-fluid div-style award-sec p-5 mt-5">
+        <div class="container skew-new mt-5">
+          <div class="row">
+            <div class="col-12">
+              <span class="badge badge-pill badge-warning text-light"
+                >Awards</span
+              >
+              <p class="mt-4">
+                Awards for design, creativity, and innovation on the Internet
+              </p>
+            </div>
+            <div class="col-12 mt-5">
+              <div class="row">
+                <div class="col mt-5">
+                  <a href="/404.html" class="no-style">
+                    <div class="card card-hover text-center p-4">
+                      <img
+                        class="rounded d-flex align-self-center pt-3"
+                        src="./images/airbnb.svg"
+                        width="70%"
+                        alt=""
+                        title=""
+                      />
+                      <div class="card-body p-0">
+                        <div class="row mt-4">
+                          <div class="col-12">
+                            <i
+                              class="fa fa-star-o text-warning"
+                              aria-hidden="true"
+                            ></i>
+                            <i
+                              class="fa fa-star-o text-warning"
+                              aria-hidden="true"
+                            ></i>
+                            <i
+                              class="fa fa-star-o text-warning"
+                              aria-hidden="true"
+                            ></i>
+                            <i
+                              class="fa fa-star-o text-warning"
+                              aria-hidden="true"
+                            ></i>
+
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                          </div>
+                          <div class="col-12 mt-3">
+                            <p class="card-text font-weight-bold">
+                              4.95 out of 5 stars
+                            </p>
+                          </div>
+                          <div class="col-12 mt-1 pb-3">
+                            <p class="card-text">from 23 reviews</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col">
+                  <a href="/404.html">
+                    <div class="card card-hover text-center p-4">
+                      <img
+                        class="rounded d-flex align-self-center pt-3"
+                        src="./images/amazon.svg"
+                        width="70%"
+                        alt=""
+                        title=""
+                      />
+                      <div class="card-body p-0">
+                        <div class="row mt-4">
+                          <div class="col-12">
+                            <p>
+                              They build modern looking websites easily using
+                              tabs
+                            </p>
+                          </div>
+                          <div class="col-12 mt-3">
+                            <button
+                              class="btn"
+                              style="text-decoration: underline"
+                            >
+                              Learn more
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col mt-5">
+                  <a href="/404.html">
+                    <div class="card card-hover text-center p-4">
+                      <img
+                        class="rounded d-flex align-self-center pt-3"
+                        src="./images/slack.svg"
+                        width="70%"
+                        alt=""
+                        title=""
+                      />
+                      <div class="card-body p-0">
+                        <div class="row mt-4">
+                          <div class="col-12">
+                            <p>
+                              They build modern looking websites easily using
+                              tabs
+                            </p>
+                          </div>
+                          <div class="col-12 mt-3">
+                            <button
+                              class="btn"
+                              style="text-decoration: underline"
+                            >
+                              Learn more
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col mt">
+                  <a href="./404.html">
+                    <div class="card card-hover text-center p-4">
+                      <img
+                        class="rounded d-flex align-self-center pt-3"
+                        src="./images/spotify.svg"
+                        width="70%"
+                        alt=""
+                        title=""
+                      />
+                      <div class="card-body p-0">
+                        <div class="row mt-4">
+                          <div class="col-12">
+                            <i
+                              class="fa fa-star-o text-warning"
+                              aria-hidden="true"
+                            ></i>
+                            <i
+                              class="fa fa-star-o text-warning"
+                              aria-hidden="true"
+                            ></i>
+                            <i
+                              class="fa fa-star-o text-warning"
+                              aria-hidden="true"
+                            ></i>
+                            <i
+                              class="fa fa-star-o text-warning"
+                              aria-hidden="true"
+                            ></i>
+
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                          </div>
+                          <div class="col-12 mt-3">
+                            <p class="card-text font-weight-bold">
+                              4.95 out of 5 stars
+                            </p>
+                          </div>
+                          <div class="col-12 mt-1 pb-3">
+                            <p class="card-text">from 23 reviews</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col mt-5">
+                  <a href="./404.html">
+                    <div class="card card-hover text-center p-4">
+                      <img
+                        class="rounded d-flex align-self-center pt-3"
+                        src="./images/paypal.svg"
+                        width="70%"
+                        alt=""
+                        title=""
+                      />
+                      <div class="card-body p-0">
+                        <div class="row mt-4">
+                          <div class="col-12">
+                            <p>
+                              They build modern looking websites easily using
+                              tabs
+                            </p>
+                          </div>
+                          <div class="col-12 mt-3">
+                            <button
+                              class="btn"
+                              style="text-decoration: underline"
+                            >
+                              Learn more
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---Awards section ends-->
+
+      <!---Helpful Answers section starts-->
+      <div class="container-fluid div-style mb-0 pt-5 pl-5 pr-5 mt-5">
+        <div class="container skew-white">
+          <div class="row mb-5">
+            <div class="col-12 text-center">
+              <h1 class="h1">Helpful Answers</h1>
+              <p class="mt-3">
+                Start building fast, beautiful, and modern-looking websites in
+                no time.
+              </p>
+            </div>
+            <div class="col-12 mt-4">
+              <div class="row" id="accordion">
+                <div class="col-6 mt-3">
+                  <!-- accordion -->
+                  <div class="card">
+                    <div class="card-header bg-light p-3">
+                      <span><i class="fa fa-file"></i></span>
+                      <a
+                        class="collapsed card-link text-decoration-none"
+                        data-toggle="collapse"
+                        href="#collapseOne"
+                      >
+                        &nbsp; &nbsp; Which license do I need?
+                        <span class="show-hide float-right"
+                          ><i class="fa fa-plus"></i
+                        ></span>
+                      </a>
+                    </div>
+                    <div
+                      id="collapseOne"
+                      class="collapse"
+                      data-parent="#accordion"
+                    >
+                      <div class="card-body">Lorem ipsum..</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 mt-3">
+                  <!--  accordion -->
+                  <div class="card">
+                    <div class="card-header bg-light p-3">
+                      <span><i class="fa fa-file"></i></span>
+                      <a
+                        class="collapsed card-link text-decoration-none"
+                        data-toggle="collapse"
+                        href="#collapseTwo"
+                      >
+                        &nbsp; &nbsp; Which license do I need?
+                        <span class="show-hide float-right"
+                          ><i class="fa fa-plus"></i
+                        ></span>
+                      </a>
+                    </div>
+                    <div
+                      id="collapseTwo"
+                      class="collapse"
+                      data-parent="#accordion"
+                    >
+                      <div class="card-body">Lorem ipsum..</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6 mt-3">
+                  <!-- accordion -->
+                  <div class="card">
+                    <div class="card-header bg-light p-3">
+                      <span><i class="fa fa-file"></i></span>
+                      <a
+                        class="collapsed card-link"
+                        data-toggle="collapse"
+                        href="#collapseThree"
+                      >
+                        &nbsp; &nbsp;How do I get access to my database?
+                        <span class="show-hide float-right"
+                          ><i class="fa fa-plus"></i
+                        ></span>
+                      </a>
+                    </div>
+                    <div
+                      id="collapseThree"
+                      class="collapse"
+                      data-parent="#accordion"
+                    >
+                      <div class="card-body">Lorem ipsum..</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 mt-3">
+                  <!--  accordion -->
+                  <div class="card">
+                    <div class="card-header bg-light p-3">
+                      <span><i class="fa fa-file"></i></span>
+                      <a
+                        class="collapsed card-link"
+                        data-toggle="collapse"
+                        href="#collapseFour"
+                      >
+                        &nbsp; &nbsp; How do I get access to my database?
+                        <span class="show-hide float-right"
+                          ><i class="fa fa-plus"></i
+                        ></span>
+                      </a>
+                    </div>
+                    <div
+                      id="collapseFour"
+                      class="collapse"
+                      data-parent="#accordion"
+                    >
+                      <div class="card-body">Lorem ipsum..</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6 mt-3">
+                  <!--  accordion -->
+                  <div class="card">
+                    <div class="card-header bg-light p-3">
+                      <span><i class="fa fa-file"></i></span>
+                      <a
+                        class="collapsed card-link"
+                        data-toggle="collapse"
+                        href="#collapseFive"
+                      >
+                        &nbsp; &nbsp;How do I see previous orders?
+
+                        <span class="show-hide float-right"
+                          ><i class="fa fa-plus"></i
+                        ></span>
+                      </a>
+                    </div>
+                    <div
+                      id="collapseFive"
+                      class="collapse"
+                      data-parent="#accordion"
+                    >
+                      <div class="card-body">Lorem ipsum..</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 mt-3">
+                  <!--  accordion -->
+                  <div class="card">
+                    <div class="card-header bg-light p-3">
+                      <span><i class="fa fa-file"></i></span>
+                      <a
+                        class="collapsed card-link"
+                        data-toggle="collapse"
+                        href="#collapseSix"
+                      >
+                        &nbsp; &nbsp;How do I see previous orders?
+
+                        <span class="show-hide float-right"
+                          ><i class="fa fa-plus"></i
+                        ></span>
+                      </a>
+                    </div>
+                    <div
+                      id="collapseSix"
+                      class="collapse"
+                      data-parent="#accordion"
+                    >
+                      <div class="card-body">Lorem ipsum..</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-5 mb-5 text-center">
+            <div class="col-12 mt-5">
+              <p>I want to start a new project</p>
+            </div>
+            <div class="col">
+              <button class="btn btn-primary pl-3 pr-3 pt-2 pb-2 mb-2 mt-2">
+                Buy now&nbsp;&nbsp; <i class="fa fa-arrow-right"></i>
+              </button>
+              <button type="button" class="btn">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---Helpful Answers section ends-->
+
+      <!---Footer section starts-->
+
+      <div class="container-fluid bg-purple pb-3">
+        <div class="container text-white">
+          <div class="row pt-5">
+            <div class="col-8 pt-5">
+              <h1 class="h3 pt-5">Brilliant solutions for your ideas</h1>
+              <p class="mt-3">Modern-looking websites.</p>
+            </div>
+            <div class="col-4 pt-5">
+              <div class="pt-5">
+                <br />
+                <button class="btn btn-light pl-3 pr-3 pt-2 pb-2">
+                  <i class="fa fa-file text-primary"></i
+                  >&nbsp;&nbsp;Documentation
+                </button>
+
+                <button class="btn btn-primary pl-3 pr-3 pt-2 pb-2">
+                  Purchase now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container text-white bg-purple pt-4">
+          <div class="row">
+            <div class="col-12"><hr class="mt-0 footer-hr" /></div>
+          </div>
+          <div class="row pt-4 pb-4">
+            <div class="col-5 pr-5">
+              <img
+                src="./images/odoo-white.svg "
+                class="img-fluid"
+                width="70px"
+                alt=""
+                title=""
+              />
+              <p class="mt-4 text-secondary">
+                Odoo attempts to bring the best development experience to
+                designers and developers by offering the tools needed for having
+                a quick and solid start in most web projects.
+              </p>
+            </div>
+            <div class="col-7 pl-5">
+              <div class="row">
+                <div class="col">
+                  <p class="font-weight-bold">Account</p>
+                  <ul class="list-unstyled">
+                    <li class="text-secondary">Profile</li>
+                    <li class="mt-2 text-secondary">Settings</li>
+                    <li class="mt-2 text-secondary">Billing</li>
+                    <li class="mt-2 text-secondary">Notifications</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <p class="font-weight-bold">About</p>
+                  <ul class="list-unstyled">
+                    <li class="text-secondary">Services</li>
+                    <li class="mt-2 text-secondary">Prices</li>
+                    <li class="mt-2 text-secondary">Contact</li>
+                    <li class="mt-2 text-secondary">Careers</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <p class="font-weight-bold">Company</p>
+                  <ul class="list-unstyled">
+                    <li class="text-secondary">Community</li>
+                    <li class="mt-2 text-secondary">Help Center</li>
+                    <li class="mt-2 text-secondary">Support</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12"><hr class="mt-0 footer-hr" /></div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <i
+                class="btn text-secondary fa fa-dribbble"
+                aria-hidden="true"
+              ></i>
+              <i class="btn text-secondary fa fa-github"></i>
+              <i class="btn text-secondary fa fa-instagram"></i>
+              <i class="btn text-secondary fa fa-facebook-square"></i>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 text-secondary">
+              &copy;&nbsp;<span class="font-weight-bold text-white"
+                >Oddo.&nbsp;&nbsp;</span
+              >All rights reserved
+            </div>
+            <div class="col-4 text-right">
+              <a class="text-secondary mr-4" href="#">Terms</a>
+              <a class="text-secondary mr-4" href="#">Privacy</a>
+              <a class="text-secondary" href="#">Cookies</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Footer section ends-->
+    </div>
+    <!-- Main Container ends -->
 
     <!--jQuery and Bootstrap Bundle (includes Popper) -->
     <script
@@ -1079,20 +1100,5 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/main.js"></script>
-    <script>
-      function myFunction(x) {
-        if (x.matches) {
-          // If media query matches
-          document.getElementById("bdy").style.display = "none";
-          document.getElementById("alertMsg").style.display = "block";
-        } else {
-          document.getElementById("bdy").style.display = "";
-          document.getElementById("alertMsg").style.display = "none";
-        }
-      }
-      var x = window.matchMedia("(max-width: 992px)");
-      myFunction(x); // Call listener function at run time
-      x.addListener(myFunction);
-    </script>
   </body>
 </html>
