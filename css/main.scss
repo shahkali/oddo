@@ -1,0 +1,216 @@
+// Default variable overrides
+//$body-bg: #000;
+//$body-color: #111;
+
+$theme-colors: (
+  "light": #ffffff,
+  "secondary": #9ca2a7,
+  "primary": #008aff,
+  "success": #28a776,
+);
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//Saas FontSize Variables
+$fontSize: 16px;
+
+//Saas FontFamily Variables
+$fontFamily: "Mulish", sans-serif;
+
+//Saas Colors Variables
+$whiteColor: #ffffff;
+$primary: #008aff;
+$lightGray: rgb(226 213 213 / 44%);
+$blackColor: #000;
+$hrColor: #f9f1f170;
+$grayColor: rgb(66 64 64 / 44%);
+$cardHoverColor: #f6f2f2;
+$lightPinkColor: #fafbff;
+$purpleColor: #151348;
+$footerHrColor: rgb(249 241 241 / 17%);
+
+//Saas
+
+//Bootstrap Theming Code
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link {
+  color: $whiteColor;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: $whiteColor;
+}
+
+.section-gap {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+//Custom Code
+
+body {
+  font-size: $fontSize;
+  font-family: $fontFamily;
+}
+.badge {
+  font-size: $fontSize;
+}
+
+.hero-section-card {
+  width: 450px;
+  border-radius: 10px 10px 70px 10px;
+}
+.gray-text {
+  color: $grayColor;
+}
+.hero-section-viewBtn {
+  border-bottom: 1px dotted;
+  text-decoration: none;
+}
+.hero-section-hr {
+  border-color: $lightGray;
+}
+a {
+  text-decoration: none;
+  color: $black;
+}
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+hr {
+  border-color: $hrColor;
+}
+.progress {
+  height: 0.2rem;
+}
+.awesome-project-child {
+  position: absolute;
+  top: -60px;
+  left: 220px;
+}
+.award-sec {
+  background-color: $lightPinkColor !important;
+}
+.bar-35 {
+  width: 35%;
+}
+
+.bar-55 {
+  width: 55%;
+}
+
+.bar-85 {
+  width: 85%;
+}
+
+.feature-child {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+.avatar-text {
+  border-radius: 50%;
+  padding: 11px 14px;
+}
+
+.badge {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+.icons i {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.card-hover {
+  text-decoration: none;
+  color: $blackColor;
+  background-color: $whiteColor;
+}
+.card-hover:hover {
+  text-decoration: none;
+  color: $blackColor;
+  background-color: $cardHoverColor;
+}
+.easy-to-install-child {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+.infinite-sol {
+  border-radius: 0px 80px 0px 80px;
+  background-color: $purpleColor;
+}
+.bg-purple {
+  background-color: $purpleColor;
+}
+.footer-hr {
+  border-color: $footerHrColor;
+  width: 60%;
+}
+.div-style {
+  z-index: 1;
+  position: relative;
+  height: 100%;
+  margin-bottom: 150px;
+}
+
+.div-style .skew:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -33px;
+  overflow: visible;
+  width: 100%;
+  height: 250px;
+  background: $primary;
+  z-index: -1;
+  -webkit-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: initial;
+}
+.div-style .skew-new:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -33px;
+  overflow: visible;
+  width: 100%;
+  height: 250px;
+  background: $lightPinkColor;
+  z-index: -1;
+  -webkit-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: initial;
+}
+
+.div-style .skew-white:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -100px;
+  overflow: visible;
+  width: 100%;
+  height: 250px;
+  background: $whiteColor;
+  z-index: -1;
+  -webkit-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: initial;
+}
